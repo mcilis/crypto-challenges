@@ -49,7 +49,9 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\Aes.cs" />
     <Compile Include="Helpers\HammingDistance.cs" />
+    <Compile Include="Helpers\Pkcs7.cs" />
     <Compile Include="Helpers\RepeatingKeyXor.cs" />
     <Compile Include="Helpers\SingleByteXorCipher.cs" />
     <Compile Include="Tests\Challenge1.cs" />
@@ -61,15 +63,28 @@
     <Compile Include="Tests\Challenge4.cs" />
     <Compile Include="Tests\Challenge5.cs" />
     <Compile Include="Tests\Challenge6.cs" />
+    <Compile Include="Tests\Challenge7.cs" />
+    <Compile Include="Tests\Challenge8.cs" />
+    <Compile Include="Tests\Challenge9.cs" />
+    <Compile Include="Tests\Challenge10.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\inputForChallenge10.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\inputForChallenge4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\inputForChallenge6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\inputForChallenge7.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\inputForChallenge8.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
